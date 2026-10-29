@@ -61,9 +61,18 @@ The executable examples reject the prose rule in decision 0001. Different subjec
 
 Read received and merged as separate series. A bulk merge is administrative activity, not proof of a simultaneous customer incident. The export is dated 2026-10-04; it is not a live queue. This page's review date records this review, not a refresh of the export. Refresh the data and recheck counts before submission or operational decisions.
 
+## Engineering outcome · 5 October
+
+The [Challenge page](https://hq.mega.dev/challenges/what-it-shows) now reports #4471 closed on 5 October. This update is later than the supplied 4 October export; the historical counts above remain tied to that export.
+
+- Parser: **FIXED**, `fix(dates): parse dd/mm for eu locales`. [Our parser ticket](https://github.com/Ignolek/mega-s01e03/issues/1) is closed as completed, based on the desk's engineering update.
+- Hint: **WON'T FIX**, booking-v3 form retired. [Our hint ticket](https://github.com/Ignolek/mega-s01e03/issues/2) is closed as not planned. Retirement removes the affected form; it is not a shipped hint correction.
+
+Closing these tickets records the desk's two different dispositions. It does not prove the cause of the unresolved descriptions, establish the timezone hypothesis, or mean we independently verified production behavior.
+
 ## Follow-up and verification
 
-Track the parser and form hint separately. Verify the parser against ambiguous dates and round trips using explicit tenant order. Verify booking-v3 hint, accepted input and stored/output date agree for its day-first tenants, with booking-v2 as a regression comparison. These are proposed checks; no production reproduction or fix has been run.
+Verify the reported parser fix against ambiguous dates and round trips using explicit tenant order. Verify that booking-v3 has actually been retired and that replacement forms use consistent hints and input interpretation. These are proposed follow-up checks; we have not independently reproduced or deployed either engineering outcome.
 
 Preserve all unresolved report IDs, request original calendar files and timestamps with named zones, and test the human's timezone hypothesis against the evidence. Do not infer a timezone defect merely from different local dates for the same instant.
 
