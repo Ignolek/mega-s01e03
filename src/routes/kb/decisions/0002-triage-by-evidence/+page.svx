@@ -4,7 +4,7 @@ title: '0002 · Review #4471 by mechanism and evidence'
 owner: Ignolek
 status: proposed
 reviewed: '2026-10-29'
-signature: 'Ignolek / MEGA S01E03 / evidence review'
+signature: 'v1.eyJzdWIiOiIyNDcxIiwiYXVkIjoiY2hhbGxlbmdlOndoYXQtaXQtc2hvd3MiLCJpYXQiOjE3OTMzMDMxODAsImV4cCI6MTc5MzM4OTU4MH0.kduxMn3TgwQYNGpeITkPPg-YGZRLvkQQdKIHt3fqy1U'
 ---
 
 <script>
